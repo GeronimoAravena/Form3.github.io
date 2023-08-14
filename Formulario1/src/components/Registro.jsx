@@ -9,9 +9,11 @@ function Registro () {
         <>
         <div>
             <Header/>
-            <SocialButton buttontype='facebook'/>
-            <SocialButton buttontype='linkedin' />
-            <SocialButton buttontype='github' />
+            <div className='d-flex flex-row justify-content-center align-items-center'>
+                <SocialButton buttontype='facebook'/>
+                <SocialButton buttontype='linkedin' />
+                <SocialButton buttontype='github' />
+            </div>
             <Subheader/>
             <Formulario/>
         </div>

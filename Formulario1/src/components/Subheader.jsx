@@ -3,9 +3,9 @@
 function Subheader () {
     return (
     <>
-    <div className="container-header">
+    <div className="container-header text-center py-2">
         <div>
-            <h4>O usa tu email para registrarte</h4>
+            <h5>O usa tu email para registrarte</h5>
         </div>
     </div>
     </>

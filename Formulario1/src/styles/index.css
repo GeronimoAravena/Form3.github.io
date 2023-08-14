@@ -14,8 +14,17 @@
   -webkit-text-size-adjust: 100%;
 }
 
+/* Centrado de formulario */
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
 
-@media (prefers-color-scheme: light) {
+
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -26,4 +35,4 @@
   button {
     background-color: #f9f9f9;
   }
-}
+} */
