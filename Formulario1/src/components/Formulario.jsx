@@ -1,11 +1,8 @@
-import './SocialButton'
 
-function formulario() {
+function Formulario() {
     return (
         <>
             <div className="Container-Form">
-                <h1>Crea una Cuenta</h1>
-                <div>Logos no tengo idea como ingresarlos</div>
                 <div>
                     <label htmlFor="name">Nombre</label>
                     <input type="text" id='name' className='form-control' />
@@ -27,3 +24,5 @@ function formulario() {
         </>
     )
 }
+
+export default Formulario

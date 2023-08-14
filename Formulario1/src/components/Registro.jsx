@@ -1,11 +1,24 @@
-import './SocialButton'
+import './Alert'
+import Formulario from'./Formulario'
+import SocialButton from './SocialButton'
+import Subheader from './Subheader'
+import Header from './Header'
 
-function registro (props) {
+function Registro () {
     return (
         <>
-        <div></div>
+        <div>
+            <Header/>
+            <SocialButton buttontype='facebook'/>
+            <SocialButton buttontype='linkedin' />
+            <SocialButton buttontype='github' />
+            <Subheader/>
+            <Formulario/>
+        </div>
         
         </>
 
     )
 }
+
+export default Registro
